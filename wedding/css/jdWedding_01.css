@@ -1,0 +1,156 @@
+/*
+* {
+overflow: auto;  //Change this to scroll or auto
+margin: 0;
+padding: 0;
+}
+
+#titleNameBar{
+	color: #a36629;
+
+}
+#aboutUs{
+	margin-left: 243px;
+	width: 10em;
+	position: absolute;
+}
+#gallery{
+	margin-left: 463px;
+	width: 9.5em;
+	position: absolute;
+}
+#theVenue{
+	margin-left: 675px;
+	width: 10em;
+	position: absolute;
+}
+#accommodations{
+	margin-left: 895px;
+	width: 18.75em;
+	position: absolute;
+}
+#theParty{
+	margin-left: 1240px;
+	width: 10.25em;
+	position: absolute;
+}
+#registry{
+	margin-left: 1460px;
+	width: 9.35em;
+	position: absolute;
+	margin-right: 400px
+}
+#homeLink{
+	margin-top: 982px;
+	margin-left: 890px;
+	width: 6em;
+	position: absolute;
+}
+#theAccommodations{
+	
+	background-image: url(accommodations.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 75%;
+	background-color: #000;
+}
+
+#home{
+	
+	background-image: url(homePage.jpg);
+	background-size: 1280px 800px;
+	background-repeat: no-repeat;
+	max-width: 1280px;
+	max-height: 800px;
+	background-color: #000;
+}
+#theGallery{
+	background-image: url(gallery.jpg);
+	background-size: 1900px 1200px;
+	background-repeat: no-repeat;
+	min-width: 1900px;
+	min-height: 1200px;
+	background-color: #000;
+}
+#Venue{
+	background-image: url(Venue.jpg);
+	background-size: 1900px 1200px;
+	background-repeat: no-repeat;
+	min-width: 1900px;
+	min-height: 1200px;
+	background-color: #000;
+}
+#theRegistry{
+	background-image: url(registry.jpg);
+	background-size: 1900px 1200px;
+	background-repeat: no-repeat;
+	min-width: 1900px;
+	min-height: 1200px;
+	background-color: #000;
+}
+body::-webkit-scrollbar {
+    width: 0.25em;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #a36629;
+  outline: 1px solid #a46630;
+}
+
+.flex_body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%; 
+}
+
+.link_class{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+
+.pageLinks div{
+	/*float: left;*/
+	/*width: 200px;*/
+	/*height: 50px;*/
+	/*border: 1px solid #a36629;*/
+	/*margin-right: 1em;*/
+	/*margin-top: 839px;*/
+/*}*/
+/***/
+
+.backgroundPage {
+   position: absolute;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding: 25px;
+  color: #fff;
+  z-index: 2;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.backgroundPage img{
+	width: 100%;
+	justify-content: center;
+}
+.pageLinks {
+	display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
